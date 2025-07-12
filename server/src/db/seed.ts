@@ -18,5 +18,4 @@ await seed(db, schema).refine((f) => {
 
 await sql.end();
 
-// biome-ignore lint/suspicious/noConsole: only used in dev
 console.log("Database seeded successfully.");
